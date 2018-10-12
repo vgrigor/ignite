@@ -42,9 +42,15 @@
     </scm>
 
     <modules>
+<!--
         <module>modules/apache-license-gen</module>
+-->
         <module>modules/tools</module>
+
         <module>modules/core</module>
+        <module>modules/indexing</module>
+
+<!--
         <module>modules/dev-utils</module>
         <module>modules/direct-io</module>
         <module>modules/hadoop</module>
@@ -58,7 +64,9 @@
         <module>modules/web</module>
         <module>modules/aop</module>
         <module>modules/urideploy</module>
-        <module>modules/indexing</module>
+-->
+
+<!--
         <module>modules/ssh</module>
         <module>modules/rest-http</module>
         <module>modules/jta</module>
@@ -89,10 +97,13 @@
         <module>modules/cassandra</module>
         <module>modules/flink</module>
         <module>modules/kubernetes</module>
-        <module>modules/zeromq</module>
+-->
+<!--        <module>modules/zeromq</module>
         <module>modules/rocketmq</module>
-        <module>modules/sqlline</module>
+        <module>modules/sqlline</module-->
+<!--
         <module>modules/ml</module>
+-->
     </modules>
 
     <profiles>
@@ -564,6 +575,14 @@
             <id>examples</id>
             <modules>
                 <module>examples</module>
+
+                <module>modules/urideploy</module>
+                <module>modules/spring</module>
+                <module>modules/log4j</module>
+                <module>modules/log4j2</module>
+                <module>modules/spring-data</module>
+                <module>modules/spring-data-2.0</module>
+                <module>modules/ml</module>
             </modules>
         </profile>
 
