@@ -150,6 +150,28 @@ import static org.apache.ignite.plugin.segmentation.SegmentationPolicy.RESTART_J
  * <pre name="code" class="java">
  * GridConfiguration cfg = new GridConfiguration();
  */
+
+/*
+ * VRGIROR:
+ *
+ * У класса определена цель:
+ *      This class defines a factory for the main Ignite API. It controls Grid life cycle
+ *      and allows listening for grid events.
+ *
+ * Определено использование:  см. выше про лоадеры
+ *
+ * Глобальная конструкция для управляния всеми гридами
+ *
+ *
+ * Видим статические члены - которые отображают
+ *  1. глобальную информацию - о запущенных гридах, их состояниях,
+ *  2. слушатели событий экземпляра
+ *  3. обьект синхронизации
+ *
+ *
+ *  4. Для эффективности синхронизации - используются ThreadLocal - локальный вариант статической перемнной
+ *  5. Статическая проверка на JDK версию - ведь она должна быть один раз
+ */
 public class IgnitionEx {
     /** Default configuration path relative to Ignite home. */
     public static final String DFLT_CFG = "config/default-config.xml";
@@ -173,6 +195,10 @@ public class IgnitionEx {
     private static final Collection<IgnitionListener> lsnrs = new GridConcurrentHashSet<>(4);
 
     /** */
+    /*
+     * VGRIGOR - тред локальные переменные обеспечивают лучшую статическую изоляцию - это статические переменные внутри потока
+     *
+     */
     private static ThreadLocal<Boolean> daemon = new ThreadLocal<Boolean>() {
         @Override protected Boolean initialValue() {
             return false;
@@ -204,6 +230,10 @@ public class IgnitionEx {
     /**
      * Enforces singleton.
      */
+    /*
+    * VGRIGOR - это синглтон - управляющая конструкция над всеми экземплярами гридов
+    *
+    */
     private IgnitionEx() {
         // No-op.
     }
@@ -318,6 +348,13 @@ public class IgnitionEx {
      *      {@code false} otherwise (the instance with given {@code name} was
      *      not found).
      */
+
+    /*
+     * VGRIGOR - смотрим проверки на NULL, они есть, и не так ужасны
+     * - обращайте внимание на то чтобы проверки не были много-этажэными, иначе надо делать рефакторинг
+     *
+     * логика управление остановокой - посмстрите какая она простая
+     */
     public static boolean stop(@Nullable String name, boolean cancel, boolean stopNotStarted) {
         IgniteNamedInstance grid = name != null ? grids.get(name) : dfltGrid;
 
@@ -330,6 +367,12 @@ public class IgnitionEx {
         if (grid != null && grid.state() == STARTED) {
             grid.stop(cancel);
 
+            /*
+             * VGRIGOR - вот так бы избегаем вложенного if
+             *      - делаем булеву переменную внутри условия и обрабатываем ее потом, в отдельном условии
+             *
+             *
+             */
             boolean fireEvt;
 
             if (name != null)
@@ -385,6 +428,13 @@ public class IgnitionEx {
                     dfltGrid = null;
             }
 
+            /*
+             * VGRIGOR - тут мы работаем по событиям,
+             * проследим по коду  как они реализованы
+             *
+             * обратим внимание как просто выглядит код взаимодействия
+             *
+             */
             if (fireEvt)
                 notifyStateChange(dfltGrid0.getName(), dfltGrid0.state());
         }
@@ -421,7 +471,20 @@ public class IgnitionEx {
      * @see Ignition#RESTART_EXIT_CODE
      */
     public static void restart(boolean cancel) {
+
+        /*
+         * VGRIGOR - работать через глобальные обьекты это не так плохо
+         * код выглядит элегантно
+         *
+         */
         String file = System.getProperty(IGNITE_SUCCESS_FILE);
+
+        /*
+         * VGRIGOR - файл который сигнализирует о разрешенном рестарте
+         * возможность для админа повлиять на логику исполнения в оперативном режиме через системное окружение
+         *
+         *
+         */
 
         if (file == null)
             U.warn(null, "Cannot restart node when restart not enabled.");

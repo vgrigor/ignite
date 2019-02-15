@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.ignite.internal</OriginalElement>
+  <nodes>
+    <node x="975.0" y="244.0">org.apache.ignite.internal.IgnitionEx</node>
+    <node x="217.0" y="1533.0">org.apache.ignite.internal.GridTaskSessionRequest</node>
+    <node x="1133.0" y="258.0">org.apache.ignite.internal.GridKernalState</node>
+    <node x="1179.0" y="444.0">org.apache.ignite.internal.GridKernalGatewayImpl</node>
+    <node x="468.0" y="861.0">org.apache.ignite.internal.GridPluginContext</node>
+    <node x="1222.0" y="160.0">org.apache.ignite.internal.StripedExecutorMXBeanAdapter</node>
+    <node x="1289.0" y="1533.0">org.apache.ignite.internal.GridJobSiblingsRequest</node>
+    <node x="803.0" y="957.0">org.apache.ignite.internal.ComputeTaskInternalFuture</node>
+    <node x="1270.0" y="1327.0">org.apache.ignite.internal.GridJobSiblingsResponse</node>
+    <node x="0.0" y="1327.0">org.apache.ignite.internal.GridJobExecuteRequest</node>
+    <node x="766.0" y="1040.0">org.apache.ignite.internal.GridJobSessionImpl</node>
+    <node x="1597.0" y="570.0">org.apache.ignite.internal.IgniteProperties</node>
+    <node x="536.0" y="243.0">org.apache.ignite.internal.IgniteDiagnosticAware</node>
+    <node x="863.0" y="1533.0">org.apache.ignite.internal.GridTaskNameHashKey</node>
+    <node x="528.0" y="794.0">org.apache.ignite.internal.IgniteMessagingImpl</node>
+    <node x="680.0" y="1256.0">org.apache.ignite.internal.GridTaskSessionInternal</node>
+    <node x="649.0" y="1533.0">org.apache.ignite.internal.ClusterMetricsSnapshot</node>
+    <node x="823.0" y="366.0">org.apache.ignite.internal.GridKernalContextImpl</node>
+    <node x="1349.0" y="531.0">org.apache.ignite.internal.IgniteVersionUtils</node>
+    <node x="0.0" y="1604.0">org.apache.ignite.internal.GridInternalException</node>
+    <node x="864.0" y="660.0">org.apache.ignite.internal.IgniteInternalFuture</node>
+    <node x="1076.0" y="1533.0">org.apache.ignite.internal.GridTaskCancelRequest</node>
+    <node x="1059.0" y="325.0">org.apache.ignite.internal.ThreadPoolMXBeanAdapter</node>
+    <node x="548.0" y="483.0">org.apache.ignite.internal.IgniteDiagnosticPrepareContext</node>
+    <node x="518.0" y="1327.0">org.apache.ignite.internal.IgniteFutureTimeoutCheckedException</node>
+    <node x="742.0" y="823.0">org.apache.ignite.internal.IgniteDiagnosticMessage</node>
+    <node x="1172.0" y="686.0">org.apache.ignite.internal.GridDiagnostic</node>
+    <node x="1501.0" y="1533.0">org.apache.ignite.internal.GridCodegenConverter</node>
+    <node x="1047.0" y="1327.0">org.apache.ignite.internal.IgniteCodeGeneratingFail</node>
+    <node x="813.0" y="1327.0">org.apache.ignite.internal.GridNodeOrderComparator</node>
+    <node x="614.0" y="961.0">org.apache.ignite.internal.IgniteComputeImpl</node>
+    <node x="202.0" y="1604.0">org.apache.ignite.internal.IgniteTransactionsEx</node>
+    <node x="71.0" y="979.0">org.apache.ignite.internal.GridJobCancelRequest</node>
+    <node x="539.0" y="550.0">org.apache.ignite.internal.GridCachePluginContext</node>
+    <node x="1163.0" y="1604.0">org.apache.ignite.internal.GridDirectMap</node>
+    <node x="351.0" y="928.0">org.apache.ignite.internal.GridJobSiblingImpl</node>
+    <node x="549.0" y="0.0">org.apache.ignite.internal.MarshallerMappingFileStore</node>
+    <node x="819.0" y="593.0">org.apache.ignite.internal.processors</node>
+    <node x="348.0" y="103.0">org.apache.ignite.internal.MarshallerPlatformIds</node>
+    <node x="1197.0" y="511.0">org.apache.ignite.internal.SkipDaemon</node>
+    <node x="510.0" y="617.0">org.apache.ignite.internal.IgniteEventsImpl</node>
+    <node x="1028.0" y="392.0">org.apache.ignite.internal.IgniteKernal</node>
+    <node x="982.0" y="1604.0">org.apache.ignite.internal.GridProxyListener</node>
+    <node x="399.0" y="1604.0">org.apache.ignite.internal.GridInternalWrapper</node>
+    <node x="457.0" y="1181.0">org.apache.ignite.internal.GridClosureCallMode</node>
+    <node x="319.0" y="467.0">org.apache.ignite.internal.GridEventConsumeHandler</node>
+    <node x="901.0" y="890.0">org.apache.ignite.internal.IgniteServicesImpl</node>
+    <node x="683.0" y="660.0">org.apache.ignite.internal.GridKernalContext</node>
+    <node x="752.0" y="299.0">org.apache.ignite.internal.IgniteComponentType</node>
+    <node x="776.0" y="89.0">org.apache.ignite.internal.IgniteInterruptedCheckedException</node>
+    <node x="433.0" y="1533.0">org.apache.ignite.internal.IgnitionMXBeanAdapter</node>
+    <node x="579.0" y="393.0">org.apache.ignite.internal.MarshallerContextImpl</node>
+    <node x="121.0" y="758.0">org.apache.ignite.internal.GridJobResultImpl</node>
+    <node x="1054.0" y="619.0">org.apache.ignite.internal.GridPluginComponent</node>
+    <node x="289.0" y="1088.0">org.apache.ignite.internal.GridTopic</node>
+    <node x="1096.0" y="867.0">org.apache.ignite.internal.websession</node>
+    <node x="970.0" y="757.0">org.apache.ignite.internal.IgniteSchedulerImpl</node>
+    <node x="285.0" y="691.0">org.apache.ignite.internal.GridMessageListenHandler</node>
+    <node x="1004.0" y="177.0">org.apache.ignite.internal.IgniteNodeAttributes</node>
+    <node x="800.0" y="484.0">org.apache.ignite.internal.IgniteEx</node>
+    <node x="216.0" y="1327.0">org.apache.ignite.internal.IgniteFutureCancelledCheckedException</node>
+    <node x="552.0" y="1028.0">org.apache.ignite.internal.GridTaskSessionImpl</node>
+    <node x="494.0" y="176.0">org.apache.ignite.internal.MappingStoreTask</node>
+    <node x="0.0" y="490.0">org.apache.ignite.internal.IgniteDeploymentCheckedException</node>
+    <node x="320.0" y="624.0">org.apache.ignite.internal.GridJobContextImpl</node>
+    <node x="649.0" y="727.0">org.apache.ignite.internal.AsyncSupportAdapter</node>
+    <node x="1047.0" y="65.0">org.apache.ignite.internal.IgniteClientDisconnectedCheckedException</node>
+    <node x="926.0" y="459.0">org.apache.ignite.internal.GridComponent</node>
+    <node x="1307.0" y="333.0">org.apache.ignite.internal.IgniteNeedReconnectException</node>
+    <node x="236.0" y="303.0">org.apache.ignite.internal.DuplicateTypeIdException</node>
+    <node x="791.0" y="1604.0">org.apache.ignite.internal.GridDirectTransient</node>
+    <node x="1490.0" y="1327.0">org.apache.ignite.internal.GridJobExecuteResponse</node>
+    <node x="0.0" y="1533.0">org.apache.ignite.internal.NodeStoppingException</node>
+    <node x="3.0" y="1462.0">org.apache.ignite.internal.ExecutorAwareMessage</node>
+    <node x="980.0" y="526.0">org.apache.ignite.internal.GridKernalGateway</node>
+    <node x="1235.0" y="755.0">org.apache.ignite.internal.ClusterLocalNodeMetricsMXBeanImpl</node>
+    <node x="970.0" y="1078.0">org.apache.ignite.internal.IgniteDiagnosticInfo</node>
+    <node x="595.0" y="1604.0">org.apache.ignite.internal.GridDirectCollection</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.ignite.internal.GridJobSessionImpl" target="org.apache.ignite.internal.GridTaskSessionImpl">
+      <point x="0.0" y="-4.006463635070759" />
+      <point x="0.0" y="-4.006463635070872" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridEventConsumeHandler" target="org.apache.ignite.internal.IgniteDeploymentCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.processors">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobResultImpl" target="org.apache.ignite.internal.GridJobSiblingImpl">
+      <point x="2.955310812577295" y="-4.033130050105484" />
+      <point x="2.955310812577295" y="-4.033130050105456" />
+    </edge>
+    <edge source="org.apache.ignite.internal.ComputeTaskInternalFuture" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.IgniteKernal">
+      <point x="1.4210854715202004E-14" y="-7.580937810943709" />
+      <point x="0.0" y="-7.580937810943709" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.IgnitionEx">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobExecuteRequest" target="org.apache.ignite.internal.ExecutorAwareMessage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteMessagingImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-3.3621149344330377" y="-3.700835468872185" />
+      <point x="-3.3621149344330306" y="-3.700835468872185" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.MarshallerContextImpl">
+      <point x="0.0" y="-6.036622310724141" />
+      <point x="0.0" y="-6.036622310724141" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComputeImpl" target="org.apache.ignite.internal.GridClosureCallMode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteEx" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="4.456838945140767" y="2.266403895398284" />
+      <point x="4.456838945140767" y="2.266403895398284" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContext" target="org.apache.ignite.internal.GridComponent">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticMessage" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridComponent" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgnitionEx">
+      <point x="-4.649928499726002" y="1.8379784948241138" />
+      <point x="-4.649928499726002" y="1.8379784948241422" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalGatewayImpl" target="org.apache.ignite.internal.GridKernalState">
+      <point x="5.319066533003536" y="0.0" />
+      <point x="5.319066533003593" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridKernalState">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContext" target="org.apache.ignite.internal.IgniteEx">
+      <point x="-5.609356835130235" y="0.0" />
+      <point x="-5.609356835130235" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridPluginComponent">
+      <point x="-5.142086878183591" y="0.0" />
+      <point x="-5.142086878183591" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgnitionEx" target="org.apache.ignite.internal.IgniteKernal">
+      <point x="5.3764267561260795" y="0.0" />
+      <point x="5.3764267561260795" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteEventsImpl" target="org.apache.ignite.internal.GridEventConsumeHandler">
+      <point x="-3.385771614913807" y="3.6792051548729887" />
+      <point x="-3.3857716149137786" y="3.6792051548729887" />
+    </edge>
+    <edge source="org.apache.ignite.internal.processors" target="org.apache.ignite.internal.processors">
+      <point x="-32.75" y="-13.0" />
+      <point x="851.75" y="578.0" />
+      <point x="845.75" y="572.0" />
+      <point x="804.0" y="572.0" />
+      <point x="798.0" y="578.0" />
+      <point x="798.0" y="593.5" />
+      <point x="804.0" y="599.5" />
+      <point x="-65.5" y="-6.5" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.IgniteComponentType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteProperties" target="org.apache.ignite.internal.IgniteVersionUtils">
+      <point x="0.0" y="4.0509803133959394" />
+      <point x="0.0" y="4.050980313395959" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.MarshallerPlatformIds">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridKernalContextImpl">
+      <point x="-0.3643401026281481" y="2.4733087736101425" />
+      <point x="-0.36434010262811967" y="2.4733087736101425" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComponentType" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteComponentType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComputeImpl" target="org.apache.ignite.internal.AsyncSupportAdapter">
+      <point x="-4.924973541919826" y="-0.8629227146099083" />
+      <point x="-4.924973541919826" y="-0.8629227146098799" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSessionImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="5.127904386135903" y="0.0" />
+      <point x="5.12790438613591" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridEventConsumeHandler" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobContextImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="4.020117126801807" />
+      <point x="0.0" y="4.020117126801836" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridTaskSessionImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-4.736290258788841" y="-1.6023590685304612" />
+      <point x="-4.736290258788856" y="-1.6023590685304612" />
+    </edge>
+    <edge source="org.apache.ignite.internal.ComputeTaskInternalFuture" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-4.48714209612578" y="2.2058004916981986" />
+      <point x="-4.487142096125773" y="2.2058004916981986" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticPrepareContext" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteClientDisconnectedCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComputeImpl" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSiblingImpl" target="org.apache.ignite.internal.GridTaskSessionImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteServicesImpl" target="org.apache.ignite.internal.AsyncSupportAdapter">
+      <point x="8.950171739434978" y="0.0" />
+      <point x="8.950171739435" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteSchedulerImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSessionImpl" target="org.apache.ignite.internal.GridTaskSessionInternal">
+      <point x="4.723368321173929" y="1.640058444852059" />
+      <point x="4.723368321173933" y="1.6400584448521158" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteEventsImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-21.180033864589063" y="0.0" />
+      <point x="-21.180033864589106" y="1.4210854715202004E-14" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteServicesImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="6.889075212093616" y="0.0" />
+      <point x="6.8890752120936085" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.GridKernalGateway">
+      <point x="-6.789885055175816" y="0.0" />
+      <point x="-6.78988505517583" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSiblingImpl" target="org.apache.ignite.internal.GridJobCancelRequest">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComputeImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-4.887342604260908" y="-1.0554062102224293" />
+      <point x="-4.887342604260915" y="-1.0554062102224577" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.DuplicateTypeIdException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContext" target="org.apache.ignite.internal.GridKernalGateway">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.MappingStoreTask">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridTaskSessionImpl" target="org.apache.ignite.internal.GridTaskSessionInternal">
+      <point x="-5.821945089840341" y="0.0" />
+      <point x="-5.821945089840394" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteMessagingImpl" target="org.apache.ignite.internal.AsyncSupportAdapter">
+      <point x="-2.38428124641149" y="-4.3949064765942865" />
+      <point x="-2.384281246411483" y="-4.3949064765942865" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridMessageListenHandler" target="org.apache.ignite.internal.IgniteDeploymentCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticAware" target="org.apache.ignite.internal.IgniteDiagnosticPrepareContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridKernalGatewayImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.StripedExecutorMXBeanAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteEx">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContext" target="org.apache.ignite.internal.MarshallerContextImpl">
+      <point x="-5.288496937933438" y="0.0" />
+      <point x="-5.288496937933417" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.ThreadPoolMXBeanAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.IgniteEx">
+      <point x="4.418484088516166" y="2.3402987756971356" />
+      <point x="4.418484088516166" y="2.3402987756971214" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSiblingImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="-3.1520774728793413" y="-3.8812894255603396" />
+      <point x="-3.152077472879327" y="-3.881289425560368" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteVersionUtils" target="org.apache.ignite.internal.IgniteProperties">
+      <point x="0.6325946162418177" y="-3.949661257817173" />
+      <point x="0.6325946162418177" y="-3.949661257817173" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticPrepareContext" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteVersionUtils">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteNodeAttributes">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.processors" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgnitionEx" target="org.apache.ignite.internal.IgniteInterruptedCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridComponent">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteInterruptedCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.processors" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="2.2698826596057273" y="4.455068205047063" />
+      <point x="2.2698826596057273" y="4.455068205047056" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticMessage" target="org.apache.ignite.internal.IgniteDiagnosticInfo">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.AsyncSupportAdapter" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridMessageListenHandler" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MappingStoreTask" target="org.apache.ignite.internal.MarshallerMappingFileStore">
+      <point x="5.486430981030196" y="0.0" />
+      <point x="5.486430981030196" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalGateway" target="org.apache.ignite.internal.GridKernalState">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteSchedulerImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="15.86029787813203" y="0.0" />
+      <point x="15.86029787813201" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridCachePluginContext" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="3.2735195777874253" y="-3.779427148900016" />
+      <point x="3.2735195777874146" y="-3.7794271489000124" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridKernalGateway">
+      <point x="-5.1197306909604094" y="0.0" />
+      <point x="-5.1197306909604094" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.ClusterLocalNodeMetricsMXBeanImpl">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalGatewayImpl" target="org.apache.ignite.internal.GridKernalGateway">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgnitionEx" target="org.apache.ignite.internal.IgniteComponentType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridDiagnostic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteMessagingImpl" target="org.apache.ignite.internal.GridMessageListenHandler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridPluginContext" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="7.312385700241293" y="0.0" />
+      <point x="7.312385700241283" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridPluginComponent" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteEventsImpl" target="org.apache.ignite.internal.AsyncSupportAdapter">
+      <point x="2.918726952362107" y="-4.0596838519218466" />
+      <point x="2.918726952362107" y="-4.0596838519218466" />
+    </edge>
+    <edge source="org.apache.ignite.internal.processors" target="org.apache.ignite.internal.GridComponent">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.websession" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.MarshallerMappingFileStore">
+      <point x="-10.008284094021292" y="0.0" />
+      <point x="-10.008284094021292" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerMappingFileStore" target="org.apache.ignite.internal.IgniteInterruptedCheckedException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.IgniteNeedReconnectException">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSessionImpl" target="org.apache.ignite.internal.ComputeTaskInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.GridPluginComponent">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobResultImpl" target="org.apache.ignite.internal.GridJobContextImpl">
+      <point x="-2.749778291217808" y="-4.17596927061814" />
+      <point x="-2.749778291217865" y="-4.17596927061814" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.GridComponent">
+      <point x="3.6709890762240462" y="-3.394678070486748" />
+      <point x="3.6709890762240605" y="-3.394678070486762" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridPluginComponent" target="org.apache.ignite.internal.GridComponent">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.websession" target="org.apache.ignite.internal.websession">
+      <point x="31.25" y="-13.0" />
+      <point x="1194.75" y="849.3333333333333" />
+      <point x="1203.0833333333333" y="841.0" />
+      <point x="1248.6666666666667" y="841.0" />
+      <point x="1257.0" y="849.3333333333333" />
+      <point x="1257.0" y="867.3333333333333" />
+      <point x="1248.6666666666667" y="875.6666666666666" />
+      <point x="67.5" y="-4.333333333333371" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteDiagnosticMessage" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteComputeImpl" target="org.apache.ignite.internal.ComputeTaskInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridKernalContextImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.GridKernalContext">
+      <point x="4.727241084452459" y="-1.628862096515462" />
+      <point x="4.727241084452462" y="-1.6288620965154479" />
+    </edge>
+    <edge source="org.apache.ignite.internal.GridJobSiblingImpl" target="org.apache.ignite.internal.GridTopic">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.IgniteKernal" target="org.apache.ignite.internal.SkipDaemon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="org.apache.ignite.internal.MarshallerContextImpl" target="org.apache.ignite.internal.IgniteInternalFuture">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1057.6666666666665" y="1040.9999999999998" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
